@@ -1,0 +1,15 @@
+{
+    "name": "BeatMapper",
+    "references": [
+        "GUID:1b8ef9503a7dfe9449f2dfe0e3d64347"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

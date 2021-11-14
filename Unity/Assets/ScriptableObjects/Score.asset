@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f30e68e924cac7646bf3754931ad2bb0, type: 3}
+  m_Name: Score
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 01010d000000700072006500500072006f0063006500730073006f00720073002f0000000001300000005500740069006c0073002e0049006e007400500072006f0063006500730073006f00720073002e0049006e007400500072006f0063006500730073006f00720043006f006e007400610069006e00650072002c0020005500740069006c0073000000000001010a000000700072006f0063006500730073006f00720073002f01000000015e000000530079007300740065006d002e0043006f006c006c0065006300740069006f006e0073002e00470065006e0065007200690063002e004c00690073007400600031005b005b005500740069006c0073002e0049006e007400500072006f0063006500730073006f00720073002e004100620073007400720061006300740049006e007400500072006f0063006500730073006f0072002c0020005500740069006c0073005d005d002c0020006d00730063006f0072006c006900620001000000060100000000000000022f02000000012b0000005500740069006c0073002e0049006e007400500072006f0063006500730073006f00720073002e0049006e0074004d0075006c007400690070006c0069006300610074006f0072002c0020005500740069006c0073000200000001010b0000006f006e00500072006f006300650073007300650064002f03000000011a0000005500740069006c0073002e0055006e006900740079004500760065006e00740049006e0074002c0020005500740069006c007300030000000101110000006d005f00500065007200730069007300740065006e007400430061006c006c0073002f04000000013e00000055006e0069007400790045006e00670069006e0065002e004500760065006e00740073002e00500065007200730069007300740065006e007400430061006c006c00470072006f00750070002c00200055006e0069007400790045006e00670069006e0065002e0043006f00720065004d006f00640075006c006500040000000101070000006d005f00430061006c006c0073002f050000000168000000530079007300740065006d002e0043006f006c006c0065006300740069006f006e0073002e00470065006e0065007200690063002e004c00690073007400600031005b005b0055006e0069007400790045006e00670069006e0065002e004500760065006e00740073002e00500065007200730069007300740065006e007400430061006c006c002c00200055006e0069007400790045006e00670069006e0065002e0043006f00720065004d006f00640075006c0065005d005d002c0020006d00730063006f0072006c006900620005000000060000000000000000070505052b010e00000075007300650049006e0074005600610072006900610062006c00650001170105000000760061006c0075006500000000000b010d000000760061006c00750065005600610072006900610062006c006500000000000507050501010e00000070006f0073007400500072006f0063006500730073006f007200730030000000000600000001010a000000700072006f0063006500730073006f0072007300300100000007000000060000000000000000070505
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 73e73f6e6085da242a38be68718a87c0, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  value: 0
+  onValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  onChangeDifference:
+    m_PersistentCalls:
+      m_Calls: []
+  onRawDataReceived:
+    m_PersistentCalls:
+      m_Calls: []
+  onBeforePostProcessing:
+    m_PersistentCalls:
+      m_Calls: []
+  onReset:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 1dfd32be184080d4dab55e9b7b5d79f3, type: 2}
+        m_TargetAssemblyTypeName: Utils.SuperchargedIntVariable, Utils
+        m_MethodName: Reset
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 6f4a3b91c0df02643bb998e0fca0f9f8, type: 2}
+        m_TargetAssemblyTypeName: Utils.SuperchargedIntVariable, Utils
+        m_MethodName: Reset
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: c18cfba245e00dc448bbc7081c4836f4, type: 2}
+        m_TargetAssemblyTypeName: Utils.SuperchargedIntVariable, Utils
+        m_MethodName: Reset
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 73e73f6e6085da242a38be68718a87c0, type: 2}
+        m_TargetAssemblyTypeName: Utils.SuperchargedIntVariable, Utils
+        m_MethodName: Reset
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 5e7a1e81275dd294dae04c4b1b5e93a2, type: 2}
+        m_TargetAssemblyTypeName: Utils.SuperchargedIntVariable, Utils
+        m_MethodName: Reset
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  debugValue: 0

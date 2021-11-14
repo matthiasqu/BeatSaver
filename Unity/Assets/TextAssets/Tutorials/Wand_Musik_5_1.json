@@ -1,0 +1,7 @@
+﻿{
+  "bookmarkName": "ObstacleSound",
+  "expectedSpawnings": 1,
+  "mustPass": true,
+  "audioEffectsEnabled": true,
+  "text": "Gerätst du in eine Wand hinein, reagiert die Musik darauf. Der nächsten Wand kannst du nicht ausweichen. Höre dir ein mal an, was dabei mit der Musik passiert."
+}

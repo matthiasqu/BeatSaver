@@ -1,0 +1,327 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f30e68e924cac7646bf3754931ad2bb0, type: 3}
+  m_Name: Multiplier
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: preProcessors
+      Entry: 7
+      Data: 0|Utils.IntProcessors.IntProcessorContainer, Utils
+    - Name: processors
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[Utils.IntProcessors.AbstractIntProcessor,
+        Utils]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 2|Utils.IntProcessors.IntGate, Utils
+    - Name: onProcessed
+      Entry: 7
+      Data: 3|UnityEngine.Events.UnityEvent`1[[System.Int32, mscorlib]], UnityEngine.CoreModule
+    - Name: m_PersistentCalls
+      Entry: 7
+      Data: 4|UnityEngine.Events.PersistentCallGroup, UnityEngine.CoreModule
+    - Name: m_Calls
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[UnityEngine.Events.PersistentCall,
+        UnityEngine.CoreModule]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: useIntVariable
+      Entry: 5
+      Data: true
+    - Name: value
+      Entry: 3
+      Data: 0
+    - Name: valueVariable
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|Utils.IntProcessors.IntMultiplicator, Utils
+    - Name: onProcessed
+      Entry: 7
+      Data: 7|UnityEngine.Events.UnityEvent`1[[System.Int32, mscorlib]], UnityEngine.CoreModule
+    - Name: m_PersistentCalls
+      Entry: 7
+      Data: 8|UnityEngine.Events.PersistentCallGroup, UnityEngine.CoreModule
+    - Name: m_Calls
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[UnityEngine.Events.PersistentCall,
+        UnityEngine.CoreModule]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: useIntVariable
+      Entry: 5
+      Data: false
+    - Name: value
+      Entry: 3
+      Data: 2
+    - Name: valueVariable
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 10|Utils.IntProcessors.IntClamp, Utils
+    - Name: onProcessed
+      Entry: 7
+      Data: 11|UnityEngine.Events.UnityEvent`1[[System.Int32, mscorlib]], UnityEngine.CoreModule
+    - Name: m_PersistentCalls
+      Entry: 7
+      Data: 12|UnityEngine.Events.PersistentCallGroup, UnityEngine.CoreModule
+    - Name: m_Calls
+      Entry: 7
+      Data: 13|System.Collections.Generic.List`1[[UnityEngine.Events.PersistentCall,
+        UnityEngine.CoreModule]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: useIntVariable
+      Entry: 5
+      Data: false
+    - Name: value
+      Entry: 3
+      Data: 0
+    - Name: valueVariable
+      Entry: 6
+      Data: 
+    - Name: bottom
+      Entry: 3
+      Data: 1
+    - Name: top
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 14|Utils.IntProcessors.IntMultiplicator, Utils
+    - Name: onProcessed
+      Entry: 7
+      Data: 15|UnityEngine.Events.UnityEvent`1[[System.Int32, mscorlib]], UnityEngine.CoreModule
+    - Name: m_PersistentCalls
+      Entry: 7
+      Data: 16|UnityEngine.Events.PersistentCallGroup, UnityEngine.CoreModule
+    - Name: m_Calls
+      Entry: 7
+      Data: 17|System.Collections.Generic.List`1[[UnityEngine.Events.PersistentCall,
+        UnityEngine.CoreModule]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: useIntVariable
+      Entry: 5
+      Data: true
+    - Name: value
+      Entry: 3
+      Data: 0
+    - Name: valueVariable
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: postProcessors
+      Entry: 7
+      Data: 18|Utils.IntProcessors.IntProcessorContainer, Utils
+    - Name: processors
+      Entry: 7
+      Data: 19|System.Collections.Generic.List`1[[Utils.IntProcessors.AbstractIntProcessor,
+        Utils]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 20|Utils.IntProcessors.IntClamp, Utils
+    - Name: onProcessed
+      Entry: 7
+      Data: 21|UnityEngine.Events.UnityEvent`1[[System.Int32, mscorlib]], UnityEngine.CoreModule
+    - Name: m_PersistentCalls
+      Entry: 7
+      Data: 22|UnityEngine.Events.PersistentCallGroup, UnityEngine.CoreModule
+    - Name: m_Calls
+      Entry: 7
+      Data: 23|System.Collections.Generic.List`1[[UnityEngine.Events.PersistentCall,
+        UnityEngine.CoreModule]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: useIntVariable
+      Entry: 5
+      Data: false
+    - Name: value
+      Entry: 3
+      Data: 0
+    - Name: valueVariable
+      Entry: 6
+      Data: 
+    - Name: bottom
+      Entry: 3
+      Data: 1
+    - Name: top
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  value: 1
+  onValueChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 5e7a1e81275dd294dae04c4b1b5e93a2, type: 2}
+        m_TargetAssemblyTypeName: Utils.SuperchargedIntVariable, Utils
+        m_MethodName: Reset
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+  onChangeDifference:
+    m_PersistentCalls:
+      m_Calls: []
+  onRawDataReceived:
+    m_PersistentCalls:
+      m_Calls: []
+  onBeforePostProcessing:
+    m_PersistentCalls:
+      m_Calls: []
+  onReset:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 5e7a1e81275dd294dae04c4b1b5e93a2, type: 2}
+        m_TargetAssemblyTypeName: Utils.SuperchargedIntVariable, Utils
+        m_MethodName: Reset
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: c18cfba245e00dc448bbc7081c4836f4, type: 2}
+        m_TargetAssemblyTypeName: Utils.SuperchargedIntVariable, Utils
+        m_MethodName: Add
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  debugValue: 0
